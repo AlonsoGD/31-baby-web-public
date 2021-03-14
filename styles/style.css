@@ -57,7 +57,7 @@ section .img-container img {
 
 header .salutation {
   font-family: "Nanum Pen Script", cursive;
-  font-size: 100px;
+  font-size: 95px;
   text-align: center;
   line-height: 80px;
   margin-top: 20px;
@@ -103,6 +103,7 @@ nav {
   flex-wrap: wrap;
   flex-direction: column;
 
+  margin-top: 10px;
   margin-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -123,6 +124,10 @@ nav a:visited {
   color: #ffffff !important;
 }
 
+a {
+  color: #0099ff;
+}
+
 .hidden {
   display: none !important;
   opacity: 0 !important;
@@ -133,7 +138,7 @@ nav a:visited {
   width: 95%;
 }
 
-#myBtn {
+#goTopButton {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -149,7 +154,7 @@ nav a:visited {
   border-radius: 4px;
 }
 
-#myBtn:hover {
+#goTopButton:hover {
   background-color: #555;
 }
 
