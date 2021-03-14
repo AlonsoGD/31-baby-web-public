@@ -130,7 +130,7 @@ nav a:visited {
 
 /* For mobile phones: */
 [class*="col-"] {
-  width: 100%;
+  width: 90%;
 }
 
 #myBtn {
